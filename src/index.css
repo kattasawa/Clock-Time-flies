@@ -17,6 +17,10 @@ h1 {
 .clock-box {
   display: flex;
   justify-content: center;
+  position: relative;
+  top: 12vh;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 button {
@@ -33,5 +37,8 @@ button {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin-top: -40px;
+  position: absolute;
+  top: 38vh;
+  left: 50%;
+  transform: translateX(-50%);
 }
